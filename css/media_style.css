@@ -1,0 +1,302 @@
+@media screen and (max-width: 2300px) {
+
+}
+
+@media screen and (max-width: 1535px) {
+    .contacts_wrapper {
+        padding-top: 4vw;
+        padding-left: 6vw;
+        padding-bottom: 4vw;
+    }
+    .contacts_title {
+        font-size: 4vw;
+    }
+    .advantages_cont {
+        padding-top: 2vw;
+    }
+    .contacts_cont {
+        width: 50%;
+        row-gap: 2vw;
+    }
+    .contacts_form {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+
+}
+
+@media screen and (max-width: 1380px) {
+    .banner_content {
+        padding-top: 20vw;
+    }
+    .banner_title .title1 {
+        font-size: 5vw;
+    }
+    .banner_title .title2 {
+        margin-top: 2vw;
+        font-size: 3.2vw;
+    }
+    .banner_props {
+        margin-top: 4vw;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .banner_props > div span {
+        font-size: 2vw;
+    }
+    .banner_props > div span b {
+        font-size: 3vw;
+    }
+    .advantages_img {
+        width: 46%;
+    }
+    .advantages_cont {
+        padding: 2vw 4vw 0;
+        max-width: 44%;
+    }
+    .advantages_block {
+        padding: 2vw 0 2vw 78px;
+        font-size: 2vw;
+    }
+    .advantages_img:nth-child(3) {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+
+}
+
+
+@media screen and (max-width: 1178px) {
+    .header .menu_mob_btn {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 5px;
+        width: 24px;
+        height: 24px;
+    }
+    .header .menu_mob_btn span {
+        display: block;
+        width: 20px;
+        height: 2px;
+        border-radius: 4px;
+        background: #ffffff;
+        transition: all 0.2s linear;
+    }
+
+    .menu_mob_close {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 5px;
+        width: 44px;
+        height: 44px;
+        background: #231F20;
+        border-radius: 10px;
+        z-index: 8;
+    }
+
+    .header .menu_mob_close span {
+        display: block;
+        width: 16px;
+        height: 1px;
+        background: #ffffff;
+        transition: all 0.2s linear;
+    }
+    .header .menu_mob_close span:nth-child(1) {
+        transform: rotate(45deg) translate(2px, 2px);
+    }
+    .header .menu_mob_close span:nth-child(2) {
+        transform: rotate(-45deg) translate(2px, -2px);
+    }
+
+    .header .menu {
+        position: absolute;
+        top: -28px;
+        left: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        row-gap: 24px;
+        background: #ffffff;
+        height: 100vh;
+        opacity: 0;
+        padding-top: 20px;
+        visibility: hidden;
+        transition: all 0.2s linear;
+    }
+
+    .header .menu.active {
+        visibility: visible;
+        opacity: 1;
+        z-index: 5;
+    }
+    .header .active .menu {
+        right: 0;
+    }
+
+    .header .menu a {
+        display: block;
+        font-size: 18px;
+        color: #000000;
+        width: 100%;
+        padding-left: 20px;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 991px) {
+    .banner_slider .banner_item {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 126vw;
+    }
+    .banner_content {
+        position: relative;
+        z-index: 4;
+        top: 16vw;
+        bottom: 0;
+        left: 0;
+        background: #000000a3;
+        padding: 20px;
+    }
+    .banner_imgs {
+        position: absolute;
+        width: 100%;
+    }
+    .banner_imgs img {
+        width: 100%;
+    }
+
+    .advantages_wrapper {
+        flex-direction: column-reverse;
+    }
+    .advantages_img {
+        margin-top: 4vw;
+        width: 100%;
+    }
+    .advantages_img img {
+        width: 100%;
+        height: auto;
+    }
+    .advantages_cont {
+        padding: 2vw 4vw 0;
+        max-width: -webkit-fill-available;
+    }
+    .advantages_block {
+        padding: 3vw 0 4vw 78px;
+        font-size: 3vw;
+    }
+    .contacts_wrapper {
+        flex-direction: column;
+        background-size: 100%;
+        background-position: 100% 100%;
+        padding: 20px;
+    }
+    .contacts_title {
+        font-size: 8vw;
+    }
+    .contacts_cont {
+        width: -webkit-fill-available;
+    }
+    .contacts_img {
+        position: relative;
+        right: 0;
+        bottom: -30px;
+        width: 48%;
+    }
+    .form-group input {
+        height: 46px;
+        padding-left: 20px;
+        font-size: 18px;
+    }
+
+    .footer_menu {
+        padding: 20px 0;
+    }
+    .footer_menu_wrap {
+        flex-direction: column;
+        row-gap: 4vw;
+    }
+    .footer_menu_wrap a {
+        font-size: 14px;
+    }
+
+    .footer_social {
+        flex-wrap: wrap;
+        row-gap: 4px;
+        align-items: start;
+        justify-content: left;
+    }
+    .footer_bottom {
+        flex-direction: column;
+        row-gap: 14px;
+    }
+
+    .advantages .btn {
+        margin-top: 4vw;
+    }
+
+    .footer_wrap {
+        flex-wrap: wrap;
+        row-gap: 4vw;
+    }
+}
+
+@media screen and (max-width: 840px) {
+}
+
+@media screen and (max-width: 769px) {
+}
+ 
+@media screen and (max-width: 600px) {
+}
+
+@media screen and (max-width: 587px) {
+}
+
+@media screen and (max-width: 440px) {
+
+    .header_wrapper {
+        justify-content: space-between;
+    }
+    .banner_content {
+        position: relative;
+        z-index: 4;
+        top: 24vw;
+    }
+    .advantages {
+        padding-top: 10vw;
+    }
+    .advantages_block {
+        font-size: 4vw;
+        min-height: 50px;
+    }
+    .contacts {
+        margin-top: 12vw;
+        margin-bottom: 12vw;
+    }
+}
+
+@media screen and (max-width: 390px) {
+}
+
+@media screen and (max-width: 360px) {
+}
+
+@media screen and (max-width: 330px) {
+}
